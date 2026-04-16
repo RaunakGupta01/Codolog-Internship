@@ -1,3 +1,7 @@
-C:\dev\java-logger-api\src\main\java\com\raunak\api\service\ProfileService.java
-C:\dev\java-logger-api\src\main\java\com\raunak\api\controller\ProfileController.java
-C:\dev\java-logger-api\src\main\java\com\raunak\api\ApiApplication.java
+C:\dev\Codolog-Internship\java-logger-api\src\main\java\com\raunak\api\model\Testimonial.java
+C:\dev\Codolog-Internship\java-logger-api\src\main\java\com\raunak\api\service\ProfileService.java
+C:\dev\Codolog-Internship\java-logger-api\src\main\java\com\raunak\api\service\TestimonialService.java
+C:\dev\Codolog-Internship\java-logger-api\src\main\java\com\raunak\api\ApiApplication.java
+C:\dev\Codolog-Internship\java-logger-api\src\main\java\com\raunak\api\controller\ProfileController.java
+C:\dev\Codolog-Internship\java-logger-api\src\main\java\com\raunak\api\controller\TestimonialController.java
+C:\dev\Codolog-Internship\java-logger-api\src\main\java\com\raunak\api\repository\TestimonialRepository.java

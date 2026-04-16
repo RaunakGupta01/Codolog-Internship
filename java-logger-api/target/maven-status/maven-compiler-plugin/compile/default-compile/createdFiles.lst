@@ -1,3 +1,7 @@
-com\raunak\api\ApiApplication.class
 com\raunak\api\controller\ProfileController.class
+com\raunak\api\model\Testimonial.class
+com\raunak\api\service\TestimonialService.class
+com\raunak\api\repository\TestimonialRepository.class
 com\raunak\api\service\ProfileService.class
+com\raunak\api\ApiApplication.class
+com\raunak\api\controller\TestimonialController.class

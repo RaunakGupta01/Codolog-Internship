@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.raunak:java-logger-api >---------------------
+[INFO] Building java-logger-api 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.5:run (default-cli) > test-compile @ java-logger-api >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ java-logger-api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ java-logger-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ java-logger-api ---
+[INFO] skip non existing resourceDirectory C:\dev\Codolog-Internship\java-logger-api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ java-logger-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.5:run (default-cli) < test-compile @ java-logger-api <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.5:run (default-cli) @ java-logger-api ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-04-16T19:07:33.510+05:30  INFO 5644 --- [           main] com.raunak.api.ApiApplication            : Starting ApiApplication using Java 17.0.18 with PID 5644 (C:\dev\Codolog-Internship\java-logger-api\target\classes started by Raunak Gupta in C:\dev\Codolog-Internship\java-logger-api)
+2026-04-16T19:07:33.517+05:30  INFO 5644 --- [           main] com.raunak.api.ApiApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-04-16T19:07:34.701+05:30  INFO 5644 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-16T19:07:34.789+05:30  INFO 5644 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2026-04-16T19:07:37.089+05:30  INFO 5644 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-04-16T19:07:37.129+05:30  INFO 5644 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-16T19:07:37.130+05:30  INFO 5644 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-16T19:07:37.414+05:30  INFO 5644 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-16T19:07:37.421+05:30  INFO 5644 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3803 ms
+2026-04-16T19:07:38.094+05:30  INFO 5644 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-16T19:07:38.267+05:30  INFO 5644 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-16T19:07:38.484+05:30  INFO 5644 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-16T19:07:39.283+05:30  INFO 5644 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-16T19:07:39.349+05:30  INFO 5644 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-16T19:07:39.730+05:30  INFO 5644 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19526f1d
+2026-04-16T19:07:39.735+05:30  INFO 5644 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-16T19:07:39.799+05:30  WARN 5644 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-16T19:07:42.954+05:30  INFO 5644 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-16T19:07:43.060+05:30  INFO 5644 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T19:07:43.600+05:30  WARN 5644 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-16T19:07:44.763+05:30  INFO 5644 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2026-04-16T19:07:44.790+05:30  INFO 5644 --- [           main] com.raunak.api.ApiApplication            : Started ApiApplication in 12.152 seconds (process running for 12.748)
+2026-04-16T19:07:48.252+05:30  INFO 5644 --- [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-16T19:07:48.257+05:30  INFO 5644 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-16T19:07:48.277+05:30  INFO 5644 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2026-04-16T19:07:48.460+05:30  INFO 5644 --- [nio-8082-exec-1] c.r.api.controller.ProfileController     : Profile API called
+2026-04-16T19:10:14.862+05:30  INFO 5644 --- [nio-8082-exec-3] c.r.api.controller.ProfileController     : Profile API called
+Hibernate: select t1_0.id,t1_0.image,t1_0.name,t1_0.role from testimonial t1_0
+Hibernate: insert into testimonial (image,name,role) values (?,?,?)
+Hibernate: select t1_0.id,t1_0.image,t1_0.name,t1_0.role from testimonial t1_0
+Hibernate: select t1_0.id,t1_0.image,t1_0.name,t1_0.role from testimonial t1_0
+Hibernate: insert into testimonial (image,name,role) values (?,?,?)
+2026-04-16T19:22:47.611+05:30  WARN 5644 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m7s590ms929µs201ns).
